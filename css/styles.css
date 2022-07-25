@@ -1070,6 +1070,13 @@ p.ism-badge a.ism-link:hover {
 }
 
 
+.modal-image{
+  width: 40%;
+  height: auto;
+  text-align: center;
+ }
+
+
 /* The Close Button */
 .close {
   color: white;
@@ -1096,21 +1103,11 @@ p.ism-badge a.ism-link:hover {
 
 
 /* Next & previous buttons */
-.prev, .next{
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 30px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-  text-decoration: none;
+.prev-next-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 2rem;
 }
 
 
@@ -1118,23 +1115,28 @@ p.ism-badge a.ism-link:hover {
 
 .prev {
   left: 25px;
-  border-radius: 5px 0 0 5px;
-  background-color: rgba(0, 0, 0, 0.850);
-  color: #666666;
+  border-radius: 3px 0 0 3px;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #081b33;
 }
 
 .next {
   right: 25px;
-  border-radius: 0 5px 5px 0;
-  background-color: rgba(0, 0, 0, 0.850);
-  color: #666666;
+  border-radius: 0 3px 3px 0;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #081b33;
 }
 
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  opacity: 0.8;
+  opacity: 0.9;
+  color: #081b33;
 }
 
 
@@ -1142,7 +1144,7 @@ p.ism-badge a.ism-link:hover {
 
 /*----------------------------------*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 
   .btn-mobile-center {
     text-align: center;
@@ -1150,4 +1152,8 @@ p.ism-badge a.ism-link:hover {
   }
 
 
-}
+  .modal-image{
+    width: 80%;
+   }
+  
+  }
