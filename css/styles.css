@@ -1237,10 +1237,25 @@ p.ism-badge a.ism-link:hover {
     margin-bottom: 0;
   }
 
-
   .modal-image{
     width: 80%;
    }
+
+  .container-timeline {
+    padding: 0 30px 0 0;
+  }
+
+  .left::before {  /**************Arrows*************/
+    right: 18px;
+  }
+  
+  .padding-left-768 {
+    padding: 0 0 0 30px;
+  }
+
+  .right::before {
+    left: 20px;
+  }
 
 }
 
@@ -1255,13 +1270,14 @@ p.ism-badge a.ism-link:hover {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
+    margin-top: 10px;
     }
 
   .container-timeline::before {
       left: 60px;
       border: medium solid;
       border-width: 10px 10px 10px 0;
-      border-color: transparent #ebebeb transparent transparent;
+      border-color: transparent #f5f5f5 transparent transparent;
       }
 
   .left::after, .right::after {
