@@ -285,10 +285,12 @@ ul {
 /*-------------------Skills Section ----------------------------*/
 
 
+
+
 .skill {
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: none;
     grid-template-rows: repeat(5, 70px);
 }
 
@@ -464,43 +466,6 @@ ul {
     100% {
       width: 75%;
     }
-  }
-
-/*------------------------Sprite Images-----------------------*/
-
-  .bg-bootstrap {
-      width: 70px; height: 70px;
-      background: url('../images/css_sprites.png') -10px -10px;
-  }
-  
-  
-  .bg-elementor {
-      width: 70px; height: 70px;
-      background: url('../images/css_sprites.png') -100px -10px;
-  }
-  
-  
-  .bg-mailchimp {
-      width: 70px; height: 70px;
-      background: url('../images/css_sprites.png') -10px -100px;
-  }
-  
-  
-  .bg-magento {
-      width: 70px; height: 70px;
-      background: url('../images/css_sprites.png') -100px -100px;
-  }
-  
-  
-  .bg-woocommerce {
-      width: 70px; height: 70px;
-      background: url('../images/css_sprites.png') -190px -10px;
-  }
-  
-  
-  .bg-wordpress {
-      width: 70px; height: 70px;
-      background: url('../images/css_sprites.png') -190px -100px;
   }
 
 
@@ -1261,6 +1226,11 @@ p.ism-badge a.ism-link:hover {
 
 @media screen and (max-width: 600px) {
 
+  .pe-4, .ps-4  {
+    padding: 1.5rem!important;
+  }
+  
+
   /* Place the timelime to the left */
   .timeline::after {
   left: 31px;
@@ -1271,20 +1241,21 @@ p.ism-badge a.ism-link:hover {
     padding-left: 70px;
     padding-right: 25px;
     margin-top: 10px;
-    }
+  }
 
   .container-timeline::before {
       left: 60px;
       border: medium solid;
       border-width: 10px 10px 10px 0;
       border-color: transparent #f5f5f5 transparent transparent;
-      }
+  }
 
   .left::after, .right::after {
       left: 17px;
-      }
+  }
 
   .right {
       left: 0%;
-      }
+  }
+
 }
