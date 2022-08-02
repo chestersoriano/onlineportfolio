@@ -24,7 +24,7 @@ ul {
 }
 
 .bold{
-    font-weight: 600;
+    font-weight: 700;
  }
 /* ------------------------ //header and logo //------------------*/
 
@@ -83,8 +83,9 @@ ul {
 
 .title {
     font-size:xx-large;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-weight:900;
+    text-transform:uppercase;
+
 }
 
 .paragraph {
@@ -143,6 +144,46 @@ ul {
 }
 
 
+.animation-move-up {
+  position: relative;
+  animation: move-up .8s infinite;
+  animation-iteration-count: 1;
+  animation-timing-function:linear;
+  animation-delay: .2s;
+}
+
+@keyframes move-up{
+  from {top: 30px; opacity: .1;}
+  to {top: 0;}
+}
+
+
+.animation-move-left {
+  position: relative;
+  animation: move-left .8s infinite;
+  animation-iteration-count: 1;
+  animation-timing-function:linear;
+  animation-delay: .4s;
+}
+
+@keyframes move-left{
+  from {left: 30px; opacity: .1;}
+  to {left: 0}
+}
+
+
+.animation-button {
+  position: relative;
+  animation: move-button .5s infinite;
+  animation-iteration-count: 1;
+  animation-timing-function:linear;
+  animation-delay: .2s;
+}
+
+@keyframes move-button{
+  from {top: 20px; opacity: .1;}
+  to {top: 0}
+}
 
 /* ------------------------ //Image Overlay//------------------*/
 
@@ -1195,6 +1236,18 @@ p.ism-badge a.ism-link:hover {
 }
 
 
+/*---------------Counter-------------------*/
+
+.counter-text{
+font-size: 100px;
+font-weight: 700;
+}
+
+.counter-text-desc{
+  font-size: 20px;
+  font-weight: 700;
+}
+
 /*----------------------------------*/
 
 @media screen and (max-width: 768px) {
@@ -1228,6 +1281,14 @@ p.ism-badge a.ism-link:hover {
 
 @media screen and (max-width: 600px) {
 
+  .title {
+    text-align: center;
+  }
+
+  .counter {
+    text-align: center;
+  }
+  
   .pe-4, .ps-4  {
     padding: 1.5rem!important;
   }
