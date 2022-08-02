@@ -74,23 +74,84 @@
     
     <!------Slider Section------>
 
-    <div class="ism-slider" data-transition_type="zoom" data-radio_type="thumbnail" id="img-slider">
-        <ol>
-          <li>
-            <img src="images/about-image.jpg">
-            <div class="ism-caption ism-caption-0">Websites</div>
-          </li>
-          <li>
-            <img src="images/brochure.jpg">
-            <div class="ism-caption ism-caption-0">Flyers</div>
-          </li>
-          <li>
-            <img src="images/terracottem-brochure.jpg">
-            <div class="ism-caption ism-caption-0">Brochure</div>
-          </li>
-        </ol>
-    </div>
+    <div class="container-fluid" style="background-image: linear-gradient(to right, #0077d0, #00b0c4);">
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row d-flex align-items-center my-4 mobile-height-320">
+                            <div class="col-md-2">
+                            </div>
+                            <div class="col-md-4">
+                                <h5 class="white mobile-text-center">TerraCottem Website</h5>
+                                <p class="white mobile-text-center">An E-commerce website used to feature various TerraCottem Products via online
+                                and able to make secure transactions on the shop features on this site. They operate their business in Australia.</p>
+                                
+                            </div>
+                            <div class="col-md-5">
+                                <img src="images/teracottem-computer-mock-up.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="col-md-1">
+                            </div>
+                        </div>
+                    </div>
+
+    
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center my-4 mobile-height-320">
+                            <div class="col-md-2">
+                            </div>
+                            <div class="col-md-4">
+                                <h5 class="white mobile-text-center mt-2">Responsive Design</h5>
+                                <p class="white mobile-text-center mt-2">Clients these days wants a responsive look of their website. I make sure that each design is as flexible as necessary to all devices.</p>
+                                
+                            </div>
+                            <div class="col-md-5">
+                                <img src="images/teracottem-responsive-mock-up.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="col-md-1">
+                            </div>
+                        </div>
+                    </div>
+
         
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center my-4 mobile-height-320">
+                            <div class="col-md-2">
+                            </div>
+                            <div class="col-md-4">
+                                <h5 class="white mobile-text-center mt-2">Graphic Design</h5>
+                                <p class="white mobile-text-center mt-2">I strive for two things in Design: Simplicity and Clarity. Great Designs are born with this principle</p>
+                                
+                            </div>
+                            <div class="col-md-5">
+                                <img src="images/safety-brochure-mock-up.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="col-md-1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+            </div>
+        </div>
+    </div>
+
 
     <!-----------Divider  ----->
 
@@ -520,9 +581,8 @@
     <footer>
 
     <!------------------------------------->
-
-    <script src="js/ism-2.2.min.js"></script>
     <script src="js/lightbox.js"></script>
+    
 
 </body>
 </html>
