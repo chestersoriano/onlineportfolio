@@ -80,25 +80,40 @@
 
                         <div class="container">
                             <div>
-                                <h1 class="title">Hi, I'm Winchester Soriano</h1>
+                                <h1 class="title darkblue animation-move-left">Winchester Soriano</h1>
                             </div>
 
                             <div>
-                                <p>Hi! I'm Chester and welcome to my online portfolio. I have been in the web industry for more than 9 years and I am passionate 
-                                in creating website and graphic designs.</p>
+                                <p class="animation-move-left">Web Developer and Graphic Designer based in Philippines. I am passionate in creating website and graphic designs.</p>
+                                <p class="bold lightblue animation-move-left">Need a fully custom website? Let's Talk</p>
                             </div>
-
-                            <div class="btn-mobile-center">
+                          
+                            <div class="btn-mobile-center animation-button">
                                 <button type="button" class="button-white" onclick="window.open('contact.html');"><i class="fa-solid fa-paper-plane"></i> Email</button>
                                 <button type="button" class="button-blue" onclick="window.open('project.html');"><i class="fa-solid fa-folder-open"></i> View Projects</button>
-                            </div>    
+                            </div>  
+                            
+                            
+                            <div class="row counter">
+                                <div class="col-sm-5">
+                                    <span id="counter1" class="counter-text darkblue"></span>
+                                    <p class="counter-text-desc">Year of Experience</p>
+                                </div>
+
+                                <div class="col-sm-5">
+                                    <span id="counter2" class="counter-text darkblue"></span>
+                                    <p class="counter-text-desc">Satisfied Clients</p>
+                                </div>
+
+
+                            </div>
                         </div>
                         
                 
                     </div>
 
                     <div class="col-md-6 my-5 text-center">
-                        <img class="img-fluid" src="images/profile-circle-img.png"  alt="Profile Image" />
+                        <img class="img-fluid animation-move-up" src="images/profile-circle-img.png"  alt="Profile Image" />
                     </div>
                 </div>
             </div>
@@ -106,10 +121,19 @@
 
 
     <!---------divider------->
+
+    <div class="container my-5">
+        <div class="header-center">
+            <h3>About Me</h3>
+        </div>
+    </div>
+
+    <!------------------------>
+
     <div class="container my-5">
         <div class="row my-3 d-flex align-items-center ">
             <div class="col-md-6">
-                <h4>About Me</h4>
+
                 <p>Over the years, I've used dozens of web and graphic designs in various industries both local and overseas. 
                 I love nothing more than challenging my skill as both designer and developer, it is both my hobby and my profession.</p>
                 <p class="mb-5">I believe this makes me an exciting guy to work with as I am constantly pushing my skill and striving for perfection.</p>
@@ -206,7 +230,9 @@
         </div>
     <footer>
     <!------------------------------------->
-<script src = "script.js"></script>
-  
+
+
+    <script src="js/counter.js"></script>
+
 </body>
 </html>
