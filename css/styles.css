@@ -149,46 +149,6 @@ ul {
 }
 
 
-.animation-move-up {
-  position: relative;
-  animation: move-up .8s infinite;
-  animation-iteration-count: 1;
-  animation-timing-function:linear;
-  animation-delay: .2s;
-}
-
-@keyframes move-up{
-  from {top: 30px; opacity: .1;}
-  to {top: 0;}
-}
-
-
-.animation-move-left {
-  position: relative;
-  animation: move-left .8s infinite;
-  animation-iteration-count: 1;
-  animation-timing-function:linear;
-  animation-delay: .4s;
-}
-
-@keyframes move-left{
-  from {left: 30px; opacity: .1;}
-  to {left: 0}
-}
-
-
-.animation-button {
-  position: relative;
-  animation: move-button .5s infinite;
-  animation-iteration-count: 1;
-  animation-timing-function:linear;
-  animation-delay: .2s;
-}
-
-@keyframes move-button{
-  from {top: 20px; opacity: .1;}
-  to {top: 0}
-}
 
 /* ------------------------ //Image Overlay//------------------*/
 
@@ -718,6 +678,68 @@ font-weight: 700;
   font-size: 20px;
   font-weight: 700;
 }
+
+
+
+/*----------------scroll animation -------*/
+
+
+.animation-move-up {
+  position: relative;
+  animation: move-up .8s infinite;
+  animation-iteration-count: 1;
+  animation-timing-function:linear;
+  animation-delay: .2s;
+}
+
+@keyframes move-up {
+  from {top: 30px; opacity: .1;}
+  to {top: 0;}
+}
+
+
+.animation-move-left {
+  position: relative;
+  animation: move-left .8s infinite;
+  animation-iteration-count: 1;
+  animation-timing-function:linear;
+  animation-delay: .4s;
+}
+
+@keyframes move-left{
+  from {left: 30px; opacity: .1;}
+  to {left: 0}
+}
+
+
+.animation-move-right{
+  position: relative;
+  animation: move-right .8s infinite;
+  animation-iteration-count: 1;
+  animation-timing-function:linear;
+  animation-delay: .1s;
+}
+
+@keyframes move-right{
+  from {right: 30px; opacity: .1;}
+  to {right: 0}
+}
+
+
+.animation-button {
+  position: relative;
+  animation: move-button .5s infinite;
+  animation-iteration-count: 1;
+  animation-timing-function:linear;
+  animation-delay: .2s;
+}
+
+@keyframes move-button{
+  from {top: 20px; opacity: .1;}
+  to {top: 0}
+}
+
+
 
 /*----------------------------------*/
 
