@@ -483,6 +483,7 @@ ul {
 .timeline {
   position: relative;
   margin: 0 auto;
+  z-index: 0;
 }
 
 .timeline::after {
@@ -501,6 +502,7 @@ ul {
     padding: 10px 40px;
     position: relative;
     width: 50%;
+    z-index: 1;
 }
 
 .container-timeline::after {  /**************Circles*************/
@@ -514,6 +516,7 @@ ul {
     top: 40px;
     border-radius: 50%;                                       /*need for circles*/
     z-index: 1;
+    opacity: 1;
 }
 
 .left {
