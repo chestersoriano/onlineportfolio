@@ -574,7 +574,6 @@ ul {
 
 .flyer-lightbox:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(43, 43, 43, 0.19);
-    opacity: 0.7;
 }
 
 
@@ -606,11 +605,7 @@ ul {
   text-align: center;
  }
 
- .modal-logo{
-  width: 34%;
-  height: auto;
-  text-align: center;
- }
+
 
 
 /* The Close Button */
@@ -674,6 +669,8 @@ ul {
   opacity: 0.9;
   color: #081b33;
 }
+
+
 
 
 /*---------------Counter-------------------*/
