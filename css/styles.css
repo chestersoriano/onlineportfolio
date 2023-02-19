@@ -370,9 +370,9 @@ ul {
 }
 
 
-.corelBar {
+.figmaBar {
     width: 0%;
-    animation: corel 3s 1s 1 forwards;
+    animation: figma 3s 1s 1 forwards;
 }
 
 
@@ -467,12 +467,12 @@ ul {
     }
   }
 
-  @keyframes corel {
+  @keyframes figma {
     0% {
       width: 0%;
     }
     100% {
-      width: 75%;
+      width: 85%;
     }
   }
 
