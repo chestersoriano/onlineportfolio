@@ -18,7 +18,7 @@ const counterAnim = (qSelector, start = 0, end, duration = 1000) => {
    //#endregion - end of - number counter animation
    
    document.addEventListener("DOMContentLoaded", () => {
-    counterAnim("#counter1", 1, 9, 700);
+    counterAnim("#counter1", 1, 10, 700);
     counterAnim("#counter2", 1, 22, 700);
    });
    
