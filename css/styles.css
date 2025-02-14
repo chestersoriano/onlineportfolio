@@ -88,6 +88,13 @@ ul {
 
 }
 
+.subheader {
+  font-size:large;
+  font-weight:600;
+  text-transform:uppercase;
+
+}
+
 .paragraph {
     height: auto;
     overflow: hidden;
