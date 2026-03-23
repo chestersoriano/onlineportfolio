@@ -19,6 +19,6 @@ const counterAnim = (qSelector, start = 0, end, duration = 1000) => {
    
    document.addEventListener("DOMContentLoaded", () => {
     counterAnim("#counter1", 1, 12, 700);
-    counterAnim("#counter2", 1, 22, 700);
+    counterAnim("#counter2", 1, 24, 700);
    });
    
